@@ -1,0 +1,841 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body bgcolor="black" style="display: flex; align-items: center; justify-content: center;">
+    <pre style="color: white;">
+                                     
+                                     
+        ▄▄▄▄                  ▄▄▄▄                                                                                                                                                                        ▄▄     
+        ████████▄▄▄████▄▄▄████████▌                                                                                                                                                                   ▄▄████     
+        ██████████████████████████▌                                                                                                                                                              ▄▄█████████     
+        ██████████████████████████▌                                                         ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄                                                                ▄▄████████▀▀▀███     
+        ██████████████████████████▌                                                                ▀▀  ▀▀▀▀▀▀▀▀▀▀▀███████████████████▄▄▄▄▄▄                                             ▄█████████▀▀     ███▌    
+        ██████▌ ▐███▀ ▀███▌ ▐█████▌                                                                                        ▀▀▀▀▀▀▀██████████████▄▄▄▄▄                             ▄▄█████████▀▀          ███▌    
+        ██████████▀ ▄█▄ ▀██████████                                                                                                    ▀▀▀▀▀████████████▄▄▄▄                 ▄▄▄████████▀▀▀              ███▌    
+        ████████▀ ▄▀▀█▀▀▄ ▀████████                                                                                                              ▀▀▀███████████▄▄▄      ▄▄▄████████▀▀▀                   ███▌        
+         ▄███████████▀▀▀▀▀▀▀████ ▄████████▄▄         ▄████▄▄▄               ██████▄▄▄       ▄▄▄▄████████████        ▄█████████▄▄        ▄█▄▄           ▀▀▀██████████▄█████████▀▀  ▄▄▄▄▄▄                 ███     
+      ▄████████████████▄     "▀▄█████████████▄     ▐███████████          ▄█████████████ ████████████████████    ▄████████████████▄    ▐██████▄         ▄███▄   ▀▀▀▀▀▀▀▀▀▀      ▄████████                 ███     
+    ▄███████████████████▌   ███████████████████▄   █████████████        ▄█████████████  ████████████████████   ███████████████████▌   █████████       ▄█████▄  ▄█████▄▄       ▄████████▀                 ███     
+   ██████████▀  ▐████████ ▄██████████   ████████   █████████████       ███████████████ ██████████▀▀▀         ▄█████████▀   ████████  ▐█████████      ████████▌ ▐███████▄     █████████                   ██▌     
+  ██████████    ████████▌▄█████████▀    ▐███████▌ ▐█████████████▌     ███████████████▌ █████████▌           ██████████     ▐███████  █████████      █████████   ████████    █████████                   ▐██      
+ ▐████████▌    ▐████████▐█████████      ▐███████▌ ███████████████    ████████████████ ▐█████████           ██████████      ▐███████ ▐████████▌      ████████▌    ████████_▄████████▀                    ██▌      
+ ▐████████     ▐███████▌█████████       ▐███████▌ ███████████████  ▄████████████████  █████████▄▄▄▄▄▄     ▐█████████         █████▌ █████████      ▐████████      ████████████████                      ██       
+  █████████      ▀████▌▐████████▌       ████████ ▐████████ ██████▌▄███████▀▐███████▌  ████████████████▌   █████████                 ████████▌      ████████▌      ▐█████████████▀                      ▐█▌       
+   ▀█████████▄         ▐████████        ████████ ▐███████▌ ██████████████▀ ████████  ▐█████████████████▌  ████████  ▄███████████   ▐████████      █████████        ▀███████████▀                      ▐█▌        
+     ▀██████████▄      ████████▌       ████████  ████████  ▐████████████▀ ▐███████▌  ████████████▀▀▀▀▀   ▐████████  █████████████▌ ▐███████▌     ▐████████          █████████▀                        ██         
+        ▀▀█████████▄   ▐███████       ████████▌  ████████   ███████████   ████████   ████████            ▐███████▌   ▀▀▀█████████▌ ▐███████      ████████▀          ████████▀                        ▐█          
+▄████▄       ▀████████▌  ███████▌     ████████▀   ███████▌   ▐█████████   ▐███████   ▐███████              ███████▌      ████████▀  ▐███████     ████████▀          ▐███████▌                         █▀          
+▀████████▄▄    ████████  ▀███████   ▄████████▀    ███████     ████████    ███████▌   ██████████████████    ▐███████    ▄████████▀    ███████▌   ████████▀           ▐███████                         █▀           
+  ▀█████████████████▀    ▀█████████████████      ███████      ██████     ███████     █████████████████▌     █████████████████▀       ▀████████████████             ███████▌                        ▐             
+     ▀▀██████████▀▀         ▀▀██████████▀        ▀█████▌                 ▀█████▌       ▀███████▀▀▀▀           ▀████████████▀          ▀███████████▀                ▀█████                         ▐              
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+       cherry was here
+
+                                                                                        -= Reasons =-
+                                                
+                                             Has Extorted MULTIPLE Young E-Girls & Leaked Some of Their Nudes (Ages Range From 13 - 16)
+                                  Tried Manipulating & Fabricating Lies to Try And Have People Doxed / Making Excuses For Doxing (To Try & Ruin Their Life)
+                                                                                     Is an Annoying Ass Person
+
+                        ╠═════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╣
+                        ║[0x00 - Table of Contents]▓░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░█[ViLE]║
+                        ╠═════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╣
+                        ║                                                                                                                                                 ║
+                        ║                                                                                                                                                 ║
+                        ║                                                                                                                                                 ║
+                        ║                                                                                                                                                 ║
+                        ║                                                                                                                                                 ║
+                        ║                                                     ╔═══════════════════════════════════╗                                                       ║
+                        ║                                                     ║      -= Table of Contents =-      ║                         The Town of                   ║
+                        ║                                                 ****║                                   ║                                Doxed Rejects . . .    ║
+                        ║                                 ~             *---**║   0x00 - Section : Notes          ║               /\                                      ║
+                        ║                                ~             *-----*║   0x01 - SG : Memes               ║          /\  //\\                                     ║
+                        ║                         ~                   *-------║   0x02 - SG : Pedo Confs          ║   /\    //\\///\\\        /\                          ║
+                        ║                        __      _   _!__     *-------║   0x03 - SG : Dox Confs           ║  //\\  ///\////\\\\  /\  //\\                         ║
+                        ║                   _   /  \_  _/ \  |::| ___ **-----*║   0x04 - SG : Target Info         ║ /  ^ \/^ ^/^  ^  ^ \/^ \/  ^ \                        ║
+                        ║                 _/ \_/^    \/   ^\/|::|\|:|  **---**║   0x05 - SG : Target Emails       ║/ ^   /  ^/ ^ ^ ^   ^\ ^/  ^^  \                       ║
+                        ║              /\/  ^ /  ^    / ^ ___|::|_|:|_/\_*****║   0x06 - SG : Bio Dad             ║ ^ ^   ^ / ^  ^    ^  \/ ^   ^  \       *              ║
+                        ║             /  \  _/ ^ ^   /    |::|--|:|---|  \__/ ║   0x07 - SG : Dads Emails         ║^^ ^ ^   ^  ^   ^   ____  ^   ^  \     /|\             ║
+                        ║           _/_^  \/  ^    _/ ^   |::|::|:|-::| ^ /_  ║   0x08 - SG : Bio Mom             ║\___________________|  |_____^ ^  \   /||o\            ║
+                        ║          /   \^ /    /\ /       |::|--|:|:--|  /  \ ║   0x09 - SG : Moms Emails         ║______________________________\ ^  \ /|o|||\           ║
+                        ║         /     \/    /  /        |::|::|:|:-:| / ^  \║   0x10 - SG : Stepdad             ║_______________________________\  ^ /|||||o|\          ║
+                        ║   _Q   / _Q  _Q_Q  / _Q    _Q   |::|::|:|:::|/    ^ ║   0x12 - SG : Other Relatives     ║|___|___||||||||||||___|__|||      /||o||||||\         ║
+                        ║  /_\)   /_\)/_/\\)  /_\)  /_\)  |::|::|:|:::|       ║   0x13 - SG : End                 ║|___|___||||||||||||___|__|||          | |             ║
+                        ║_O|/O___O|/O_OO|/O__O|/O__O|/O_______________________║                                   ║|||||||||||||||||||||||||||||oooooooooo| |ooooooooooooo║
+                        ║/////////////////////////////////////////////////////║                                   ║ooooooooooooooooooooooooooooooooooooooooooooooooooooooo║
+                        ║  .      .       .    .       .    .      .     .    ║                                   ║ .  .      .       .    .       .    .      .     .    ║
+                        ║ .     .    .      .      .  +   .    .   .    .   . ║                                   ║   .     .    .      .      .  +   .    .   .    .   . ║
+                        ║    .           .     +       .    +    .    +  .    ║                                   ║ .    .           .     +       .    +    .    +  .    ║
+                        ║  .    +      .       .      .      .    .     .     ╚═══════════════════════════════════╝ +  .    +      .      .      .      .    .    .       ║
+                        ║  .      .       .    .       .    .      .      .  +  .     .   .      .   .     .    +    .  .      .       .    .       .    .      .     .   ║
+                        ║ .   .    .   +    .    .   .    .    +     .     .  .    .    .  +   .   +   .     .    .   .   .    .   +    .    .   .    .    +     .     .  ║
+                        ║   +    .       .     .        .    .   .  +    .      +    .      .     .       .    .    .   +    .       .     .        .    .   .  +    .    ║
+                        ║ .     .    .      .      .  +   .    .   .    .   .  .   .    +      .      .      .    +    .     .    .      .      .  +   .    .   .    .  . ║
+                        ║    .           .     +       .    +    .    +  .   .   +   .     .       +     .     .    .    .           .     +       .    +    .    +  .    ║
+                        ╠═════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╣
+                                                                 
+
+╔═══════════════════════╦════════════════════════════════════════════════════════════════╦═══════════════════════════════════════════════════════════════════════╦════════╦══════╗
+▓ ▓▓       Note      ▓▓ ║ ▓▓                                               [ Someguy ]   ║    [ Someguy ]                                                     ▓▓ ║  0x00  ║  ▓▓  ▓
+╚═══════════════════════╩════════════════════════════════════════════════════════════════╩═══════════════════════════════════════════════════════════════════════╩════════╩══════╝
+                                    I'd also like to apologize for taking so long and for any distance with the awaiting community. Better late than never though!
+
+                                                    I'd also like to take some time to credit the people who worked on the dox:
+                    Someguy/Someguy6969, Vilo, Distraught, biggesthreat, Network, Lapsus Wannbe, Lunar TLOS, Provider, & cherry And all the Innies/SErs
+
+                                                Quick rep to Lunar TLOs though, 100/10 OSINT & CSINT for super cheap. t.me/LunarsTLOs
+                                                 And their amazing bot to make the lookups private and automated: t.me/LunarsTLOsBot
+
+
+                                                                    Personal Contact (Discord) ; opsecjesus
+                                                                            Telegram: t.me/someyap
+
+╔═══════════════════════╦════════════════════════════════════════════════════════════════╦═══════════════════════════════════════════════════════════════════════╦════════╦══════╗
+▓ ▓▓      MEMES       ▓▓ ║ ▓▓                                               [ Someguy ]   ║    [ Someguy ]                                                     ▓▓ ║  0x01  ║  ▓▓  ▓
+╚═══════════════════════╩════════════════════════════════════════════════════════════════╩═══════════════════════════════════════════════════════════════════════╩════════╩══════╝
+
+›  — Memes:             (old but gold)
+     └──│ Caden is homeless and his mom is posting on r/homeless on reddit
+        │ Caden has created an addiction to cocaine and pills, ironically enough his mom got arrested for usage and possession of drugs LMAO (Like mother, like son)
+        │ Caden flexes frozen wallets and LARPs being rich / https://files.catbox.moe/al8st4.png
+        │ Caden's friends unironically try to flex $0.08 wallets LMAO / https://files.catbox.moe/jg0l6y.webp
+        │ Caden sucks at Drawing & Spelling / https://files.catbox.moe/nt2z02.png / https://files.catbox.moe/6qex9d.webp
+        │ Caden's mom is a chronic whore / https://files.catbox.moe/0tpdfb.png
+
+›  — Lore ; https://files.catbox.moe/moo482.txt
+     └──│ Content of Prologue V1 Before Edit
+
+╔═══════════════════════╦════════════════════════════════════════════════════════════════╦═══════════════════════════════════════════════════════════════════════╦════════╦══════╗
+▓ ▓▓  Pedo Confirms  ▓▓ ║ ▓▓                                               [ Someguy ]   ║    [ Someguy ]                                                     ▓▓ ║  0x02  ║  ▓▓  ▓
+╚═══════════════════════╩════════════════════════════════════════════════════════════════╩═══════════════════════════════════════════════════════════════════════╩════════╩══════╝
+
+›  — LipKNR ; https://doxbin.com/upload/resistarchivelawl
+        └──│ Caden Also Admits to Jared That he DID Have a Lorebook on Someone in Feb (Caden confirmed, + it matches dates) / https://files.catbox.moe/892rzi.webp
+           │ TL;DR Caden Made a Lorebook on LIPKNR (Even Tho She Was 14) Because She Was an Extorter (Just Cuz She Extorts, Don't Mean u Can Leak CP)
+           │ Side Note: He Originally Tells Jared She Was 18 (in The SS), But Then Changes it to 17 (Still Illegal + Seems Like Lying) / https://files.catbox.moe/ntyagj.png
+           │ Bear Also Addresses The Lorebook: https://files.catbox.moe/y5n3o4.webp
+           │ Girl Was 14 - 16 Years Old at This Time
+
+›  — Lily ;  https://files.catbox.moe/c4b2s1.webp
+        └──│ Girls Statement of Events: https://files.catbox.moe/6rjack.webp
+           │ Girl Was 13 Years Old at This Time
+
+›  — Hix ; https://files.catbox.moe/fobq2c.webp
+      └──│ Bear's Comment: https://files.catbox.moe/gmsbjz.webp
+         │ Guy Was 16 Years Old at This Time
+
+›  — Kenzie ; https://files.catbox.moe/vemyuj.webp
+        └──│ https://files.catbox.moe/cr54sy.png / https://files.catbox.moe/zjhnpu.png / https://files.catbox.moe/cy0o3g.png
+           │ Note: Caden had extorted Rifle's E-Girl into cutting Rifle's alias and blamed it on Rifle
+           │ Girl Was 14 Years Old at This Time
+
+›  — Mythx ; https://files.catbox.moe/6yt730.webp + https://files.catbox.moe/h4kqxd.webp
+        └──│ Mythx was extorted with threats of doxing, cps, etc. and she was pressured into doing ageplaying and esex
+           │ Scared to Comeout w/ Proof: https://files.catbox.moe/0gd5uq.webp
+           │ Girl Was 15 Years Old at This Time
+
+›  — More ; https://t.me/surgexposed
+        └──│ Proof of him doing weird ageplay and extortion on young girls such as: Jade/Chloee, Demi, Mass, ETC. 
+           │ This is ALSO the channel we used to update about his dox
+           │ Heres the channel of him & Demi arguing: t.me/surgeonK
+           │ These Girl's Ages Range From 14 - 16 (Jade is 16, Demi is 14, IDK Mass's Age But Was Confirmed to be a Minor, Age Was on Surgeon's Dox)
+
+›  — Manipulation ; https://files.catbox.moe/znqwrg.mp4
+        └──│ Tl;DR Caden is trying to get Slav to get proof of me being a pedo (as Caden has none because I'm not LOL)
+           │ Caden also accidentally says "my TLOs" accidentally admitting that he was Caden Lee Gray
+
+╔═══════════════════════╦════════════════════════════════════════════════════════════════╦═══════════════════════════════════════════════════════════════════════╦════════╦══════╗
+▓ ▓▓  Dox Confirms   ▓▓ ║ ▓▓                                               [ Someguy ]   ║    [ Someguy ]                                                     ▓▓ ║  0x03  ║  ▓▓  ▓
+╚═══════════════════════╩════════════════════════════════════════════════════════════════╩═══════════════════════════════════════════════════════════════════════╩════════╩══════╝
+
+›  — 1/25/2025 ;
+ └──│ As of revisiting the Someguy6969 Doxbin account, it revealed that ''someone'' had removed the original dox on him (not even updated)
+    │ (totally not Caden himself or his parents/lawyers getting it removed because he's scared)
+    │ Original Link ;https://doxbin.com/upload/12mResistAKACadenLeeGray
+
+›  — 12/04/2024 ;
+ └──│Talked with some of Caden's friends and showed them some/all the confirms relating to him. And 100% of Caden's friends agreed his dox is 100% confirmed. 
+    │ Nobody is denying it as its impossible for him to deny, even for him or his friends. 
+
+    │ Nept ; https://files.catbox.moe/hwjk63.webp
+    │ Bear ; https://files.catbox.moe/w994re.webp
+    │ Rifle ;  https://files.catbox.moe/yfhl01.webp
+    │ Surgeon / Caden Himself ; https://files.catbox.moe/qhhb4n.webp
+    │ Also, upon contacting Caden's now EX E-Girl, she informed us that Caden got his parents involved (obviously because they had to get the mychart acc back)
+    │ but not only that, but his parents were getting lawyers on us (poor ass public defender lawyers ofc, but still LOL)
+    │ Talked with multiple people and it was an agreed consensus, not only do lawyers not have insane gov shit like EDRing, but even if they somehow
+    │ magically found us, we have way more way WORSE things on him then us doxing him (doxing, abusing stolen PI tools like tloxp, leaking cp MULTIPLE TIMES, extortion MULTIPLE TIMES, ETC.)
+    │ Bro is unironically so scared of us and this dox, he told mommy and daddy he needed legal help against us LMAO
+    │ SS #1: https://files.catbox.moe/rauq7i.webp
+    │ SS #2: https://files.catbox.moe/hpljc1.webp
+    │ SS #3: https://files.catbox.moe/7x5k0y.webp
+
+
+
+›  — 12/03/2024 ;
+ └──│ On this day (December 3rd, 2024), I was contacted by 2 close friends of caden came to me. One providing a screenshot of him admitting he had been doxed by us. 
+    │ And another few screenshots of messages from his friend informing us that him and another member had be confided in knowing that surgeon was caden and that he understood why "surgeon" was doxed (as he deserved it) 
+    │ + gave more insight on him.
+    │ Caden texting Rifle that he had been doxed and wanting the message relayed to eclipse so he could "do something": https://files.catbox.moe/qhhb4n.webp
+
+›  — Conversation between me and Bear ;
+    │ - https://files.catbox.moe/uztbwv.webp
+    │ - https://files.catbox.moe/1wd4kr.webp
+    │ - https://files.catbox.moe/rs4y36.webp
+    │ - https://files.catbox.moe/fhkkju.webp
+    │ - https://files.catbox.moe/itl6e3.webp
+
+
+›  — 12/01/2024 ;
+ └──│ Breach connected to weebzekyu@gmail.com on fliped with his alias + matching his confirmed location: https://files.catbox.moe/0joiz1.webp
+    │ ( location was confirmed via his login on the shared nekotlo account owned by deagan / https://files.catbox.moe/gb5qrb.webp )
+    │ He's also admitted owning the email as a mean of giving having someone give us a lead and watching us still to find out who he is 
+    │ (reiko gave it to us, seen no indiciation that caden was the one who told him to, if so thanks for your free dox) / https://files.catbox.moe/nub8zq.webp
+    │ Via calling paypal support, we wernt able to get the data we didnt know (the three middle digits), 
+    │ but they were able to confirm the data we had such as erica gray and scott as well as the numbers first digits being 314 and the location of the account being in MO
+    │ leading to finding erica gray's actual phone number which was also connected and verified through parental controls 
+    │ A few hours after continuing to investigate we kept coming across records such as the fact that his spectrum plan at ended in December 2022 
+    │ (which relates to the 24.207.206.69 IP found from the fliped breach) and there was another account at a different address that ended Jan 2024. 
+    │ We also found out that his mom not only had a drivers license, but a nondrivers license (which is weird because usually you only have one).
+    │ Soon after we had posted that he started spamming jaquaim and ended up wanting to call and talk with us. 
+    │ (likely as he was getting scared because we were pulling actual hard records connecting to him) / https://files.catbox.moe/yjvm3j.webp / https://files.catbox.moe/k6fp9p.webp
+    │ Down below is majority of said call, mainly me pressing him about the data connecting from him to his paypal to his in person information. 
+    │ He admitted in the vc on clip that it was his email, he also admitted on clip that it was his IP, he was also claiming that he personally added his parents on the recovery to "detace"
+    │ but started claiming it wasnt actually his email and he was "messing with us" after I started mentioning that erica would have had to verify the number usage for the parantal controls. 
+    │ As whoever owns said paypal would 100% be directly related to Erica Ladonn Gray and Scott via the confirmed names and her number. 
+    │ And he could have stuck with his lie of it not being his email if 5 minutes after the call he didn't take off the number from the paypal verification to try and cover his tracks.
+
+›  — Also during the vc, while logging into his paypal he addresses himself as caden saying "I have caden's passwords here somewhere" (this was before he was denying the email too lmao.)
+    │ - https://files.catbox.moe/nx9lpw.mp4
+    │ - https://files.catbox.moe/huqjhl.mp4
+    │ - https://files.catbox.moe/ylpb5y.mp4
+    │ I ran the email through PayPal's public API and discovered the following information linked to the account ; - Phone number - WhatsApp - ID - Email - Phone call 
+    │ After our call, we noticed some of these options started disappearing.   
+
+›  — Before the call ;  [API request results](https://files.catbox.moe/a9dc4n.jpg)   
+ └──│ **After the call:**  [API request results](https://files.catbox.moe/l0vux2.jpg)   
+    │ As you can see, most contact options were removed from the account, confirming that the individual was actively deleting the data after the call.   
+
+›  — Video of both requests ; [Video](https://files.catbox.moe/4w2fbc.mp4)   
+ └──│ **Getting a login error after he deleted to many things on the account to quickly:
+    │ **  Afterward, the account prompted a verification request, showing that too many changes were made too quickly:  [Video](https://files.catbox.moe/q8kjh7.mp4)
+    │ + Heres a video referencing the time of how quick it started changing after the gc/vc : https://files.catbox.moe/6hjwh8.mp4
+
+›  — PSA ;  
+ └──│ of 12/04/2024 ; Caden noticing how we were using the fact he removed the info from paypal, he put it back (maybe to use it to act like he didnt change anything?)
+    │ unfortunately for him we suspected he'd try and cover shit up so obviously we recorded and documented everything. (including that it got changed back to save his ass).
+
+›  — Video of it Changing Back as of 12/04/2024 ; https://files.catbox.moe/i7bg9u.mp4
+ └──│ Also, funnily enough after we had shown him the proof we got from his paypal, he started being a lot nicer to us and had said in his channel that he was "dropping his ego and beef entirely" 
+    │ because he had been compromised. (but claims by his alter alias, not us... it was us... he announced it 10 min after the gc) and turned his cringe doxer group into a friend group. 
+    │ He also state that he will be taking everyones dox down.
+    │ - Statements After The GC ; https://files.catbox.moe/356i2j.webp
+    │ - Turning Into Friend Group ; https://files.catbox.moe/rd5q5m.webp
+    │ - Leaving Com Because he Got Compromised ; https://files.catbox.moe/d030kk.webp
+    │ - Deleting His Statement About Leaving Com ; https://files.catbox.moe/eri9ux.png
+    │ - Him Making Another Statement About Leaving Com ; https://files.catbox.moe/lyrhaf.webp
+    │ - Quit Doxbin ; https://files.catbox.moe/9xswy1.webp
+    │ - Quit Discord ; https://files.catbox.moe/ewklbc.webp
+    │ - Deleted Telegram ; https://files.catbox.moe/bezaac.webp
+
+›  — Note ; 
+ └──│ he's literally admitting he's been doxed MINUTES after we confronted him about the paypal shit. 
+    │ Not only that but during that same vc he was claiming that only jered has his info so the "light" figure would have had to dox him in the 2 minutes from when we were pressing him and when he posted. 
+    │ (if it wasnt us, then why'd you change your paypal info LOL)
+    │ on login.microsoft.com we put in cadens email (weebzekyu@gmail.com) and it gave us a few recovery options (iphone,ipad,recovery key) and from what we know caden gray (surgeon) has an iphone 
+    │ https://files.catbox.moe/2fbao7.jpg (proof of the recovery)
+
+›  — Caden gray has some social medias this is the info for them ;
+ └──│ Telegram ID: 6891423246 usernames ; 
+    │ @S5URGEON 
+    │ @sdfglkhsdfhklsdfgl  
+    │ (both of the usernames are inactive his account currently doesent have one but his id is it Messages: https://files.catbox.moe/0l5zl0
+ └──│ Telegram 2 (DELETED) ID: 7107222541 usernames ;
+    │ @bo2trickshotter 
+    │ @S5URGEON 
+    │ @DI5SECTION Message: https://files.catbox.moe/qptrxv
+ └──│ Discord ID: 1240200388548759562 Username ; imreallytiredrn 
+    │ (Confirmation of him giving me the discord to add) https://files.catbox.moe/879w6z.jpg
+
+›  — 12/02/2024 ;
+ └──│ Also note when having some bosses get into his mychart, they found the pfp of his account and it was a more recent photo of him showing the even bigger resemblances.
+    │ MyChart PFP ; https://files.catbox.moe/x907nv.webp
+    │ Photo Sent by "Surgeon" (aka Caden Lee Gray) ; https://files.catbox.moe/4r5w9n.webp
+
+    │ On top of that, upon posting proof his MyChart had been compromised. 
+    │ Roughly 5 minutes later there was an email sent to the temp mail used to hold the login for his account saying there was too many login attempts tried 
+    │ (meaning after seeing that his mychart had been compromised he tried logging in using his password and since he hadnt used it in a bit he was trying a series of passwords which caused it to rate limit)
+
+    │ For those who dont know, the only way to login to mychart is by having the username and password, even if you have the email, number, address, etc. connected you can't "recover" it unless you call support 
+    │ (which they eventually did) and the only way to obtain the username is by mychart support giving you it 
+    │ (after verifying all the info and identity questions) or creating the account and from that knowing what the username is. 
+
+    │ With that, this proves that Caden Lee Gray had after a year of not using his mychart had suddenly wanted to login just a few minutes after we had publically posting that we had gotten inside. 
+    │ Meaning he was indeed aware of that gc and the person we are doxing is indeed our target. AKA Surgeon = Caden Lee Gray (confirmed beyond repair). 
+
+    │ - Posting the MyChart Info: https://files.catbox.moe/uvoi3l.webp
+    │ Note ; You can see the MyChart PFP posted, we had also posted a preview screen of the mychart acc then deleted it a few minutes after to be "mysterious")
+
+    │ - Him trying too many logins: https://files.catbox.moe/rd60lb.png
+    │ Note ; They did recover the account via contacting support shortly after
+
+
+
+›  — 04/16/2024
+ └──│ (old confirms from my OG dox)
+    │ He was doxed a few years back (shittly), had been privated and me and GalaxyArts google dorked into finding it and expanded upon it. 
+    │ When we became chill, he had asked me to take his dox down (why you you care if it was fake info). 
+
+    │ Again, refrence the breach of his email :  https://files.catbox.moe/ih5gee.webp
+
+    │ He had also been connected without a vpn on a shared telegram account for nekotlos: https://files.catbox.moe/gb5qrb.webp
+
+    │ - Clip of him admitting (also trying to get a friend to get fake dirt on me) ; 
+    │ - https://files.catbox.moe/znqwrg.mp4
+
+    │ Caden also accidentally says "my TLOs" accidentally admitting that he was Caden Lee Gray
+
+╔═══════════════════════╦════════════════════════════════════════════════════════════════╦═══════════════════════════════════════════════════════════════════════╦════════╦══════╗
+▓ ▓▓   Target Info   ▓▓ ║ ▓▓                                               [ Someguy ]   ║    [ Someguy ]                                                     ▓▓ ║  0x04  ║  ▓▓  ▓
+╚═══════════════════════╩════════════════════════════════════════════════════════════════╩═══════════════════════════════════════════════════════════════════════╩════════╩══════╝
+
+›  — Name ; Caden Lee Gray
+ └──│ Aliases ; Surgeon, Christian, 12m, Resist, ripsquad12m, MaskL, Kiril, Drahko, Omniscient, cadenlmaoo
+    │ People he Larped as ; Light Yagami, Cloak / Deathnote
+    │ Groups: Cre.ep
+
+›  — Age ; 16 Years Old
+ └──│ DOB ; 09/23/2008 [September 23, 2008]
+    │ https://files.catbox.moe/egjt14.png + https://files.catbox.moe/14egil.webp
+    │ Height ; 168 CM (5'6)
+    │ Weight ; 57.6 KG (126 LBS)
+
+›  — Allergies ; Bubblegum Flavor (Bulk) / Causes Rash
+ └──│ Cornflower / Reaction Unknown
+    │ Lime / Reaction Unknown
+
+›  — Note ; Proof he Lives With His Dad Mainly: 
+ └──│ Firstly a BIG hitter is that Markus (Caden's Bio Father) and Markus's Brother (Caden's Uncle) Are the ONLY two people that are in his family on MyChart
+    │ Not only that, but Markus was the ONLY one able to see said account info
+    │ And lastly, a look into Erica can show a lot. Her positing about family but not Caden (since he was young)
+    │ On top of that, her criminal records (including theft, meth abuse, etc.) show that she would have been incarcerated sometimes during his childhood
+    │ Here's a list of all her criminal records, displaying everything / https://files.catbox.moe/zpaekt.txt
+
+›  — Primary Address ; 615 Reavis Barracks Rd, Saint Louis, MO 63125
+ └──│ County ; Saint Louis County
+    │ Parcel ID ; 28H240183
+    │ ISP Provider ; Spectrum / https://files.catbox.moe/dv8iyx.webp
+    │ Time of Residence ; March 2017 to Current
+    │ Proof of Residence ; https://files.catbox.moe/qjc6et.txt
+    │ Note ; This is His Father's Residence, Whom he Mainly Lives With.        
+
+›  — Secondary Address ; 24010 W Veterans Memorial Pkwy #203, Warrenton, MO 63383
+ └──│ County ;  Warren County
+    │ ISP Provider ; Spectrum / https://files.catbox.moe/oguxzs.webp
+    │ Time of Residence ; October 3, 2024 to Current
+    │ Proof of Residence ; https://files.catbox.moe/a9750r.txt   
+    │ Note ; This is His Mother's & Step Father's Residence, Whom he Likely Lives With Sometimes.     
+
+›  — IRLs ; https://t.me/cadengray    
+
+╔═══════════════════════╦════════════════════════════════════════════════════════════════╦═══════════════════════════════════════════════════════════════════════╦════════╦══════╗
+▓ ▓▓     Emails      ▓▓ ║ ▓▓                                               [ Someguy ]   ║    [ Someguy ]                                                     ▓▓ ║  0x05  ║  ▓▓  ▓
+╚═══════════════════════╩════════════════════════════════════════════════════════════════╩═══════════════════════════════════════════════════════════════════════╩════════╩══════╝
+
+›  — Email Address ; weebzekyu@gmail.com │ ─ Connected
+         │   │──│ Instagram
+         │   │──│ Spotify
+         │   │──│ Twitter
+         │   │──│ Pornhub
+         │   │──│ Imgur
+         │   │──│ Vimeo
+         │   │──│ Activison
+         │   │──│ Call of Duty
+         │   │──│ PayPal / +1 3••-•••-3128 / +1 (314) ***-3128
+         │   │──│ Github / https://github.com/R4tel1mitTh1ef
+         │   │──│ Chess / https://www.chess.com/member/z3kyu
+         └──│ Fliped ────── Fliped Info
+         │   │                   └──│ Username: 12MMM
+         │   │          │ UID: 454225
+         │   │          │ IP: 24.207.206.69
+         │   │          │ VPN/Proxy: No / https://files.catbox.moe/8yj32e.webp
+         │   │          │ Location: Saint Louis, MO / https://files.catbox.moe/0f3q4p.webp
+         └──│ Microsoft ────── Microsoft Info
+         │   │                   └──│ Name: asdgasod asdas90dyas09dy
+         │   │          │ CID: 7135753930D51219
+
+›  — Email Address ; resist5000@protonmail.com │ ─ Connected
+         │   │──│ Twitter
+         │   │──│ Giphy
+         │   │──│ Github / https://github.com/deliver2
+         │   │──│ Doxbin ────── Doxbin Info
+         │   │                   └──│ Username: resist
+         │   │          │ ID: 22257
+         │   │          │ Status: Banned
+         │   │──│ Proton ────── Proton Info
+         │   │                   └──│ PGP Key: info:1:1
+         │   │          │ PUB: 22b7f122d934388dfd8f50dc33510ab3728e653f:22::1668982694::
+         │   │          │ UID: resist5000@protonmail.com <resist5000@protonmail.com>:1668982694::
+         │   │          │ PGP Key Type: X25519
+
+›  — Logged Skiff Emails ; ps3ud0naymehunter@skiff.com / Sites: Patreon
+123fd7g23f97g3f72fg3@skiff.com
+pzzzeudonamez@skiff.com
+
+›  — Possible Logged School Email ; 28cadengray@lindberghschools.ws
+
+╔═══════════════════════╦════════════════════════════════════════════════════════════════╦═══════════════════════════════════════════════════════════════════════╦════════╦══════╗
+▓ ▓▓  Fathers Info   ▓▓ ║ ▓▓                                               [ Someguy ]   ║    [ Someguy ]                                                     ▓▓ ║  0x06  ║  ▓▓  ▓
+╚═══════════════════════╩════════════════════════════════════════════════════════════════╩═══════════════════════════════════════════════════════════════════════╩════════╩══════╝
+
+›  — Name ; Markus Garrett Welch
+ └──│ Pseudonyms ; Marcus
+    │ Age ; 32 Years Old
+    │ DOB ; 07/10/1992 [July 10, 1992] 
+    │ Height ; 175 CM (5'9)
+    │ Weight ; 79.3 KG (175 LBS)
+
+›  — SSN ; 499-06-2834
+ └──│ Date of Issuance ; 1992
+    │ State of Issuance ; MO
+
+›  — Credit Report ; https://files.catbox.moe/ot6b5u.pdf
+ └──│ Credit Score: 495
+    │ TLO: https://files.catbox.moe/w32766.txt
+
+›  — Driver Record ; https://files.catbox.moe/f8f2fu.pdf
+ └──│ DLN: W204197023
+    │ Sequential Number: 241540240062
+    │ License Type: Class F - Operator License
+    │ Issue Date: 1/24/2024
+    │ Expire Date: 7/10/2028
+    │ Issue Type: Duplicate
+
+›  — Non-Driver Information:     https://files.catbox.moe/f8f2fu.pdf
+ └──│ Sequential Number: 150030230004
+    │ License Type: Expired
+    │ Issue Date: 1/22/2015
+    │ Expire Date: 7/10/2021
+
+›  Number:                     +1 (314) 337-3713
+›  CNAM:                       Markus Welch
+›  Carrier:                    New Cingular Wireless PCS, LLC - IL
+›  OSINT Industries:           https://files.catbox.moe/ohqp53.json
+
+›  — Address ; 615 Reavis Barracks Rd, Saint Louis, MO 63125
+ └──│ County ; Saint Louis County
+    │ Parcel ID ; 28H240183
+    │ ISP Provider ; Spectrum
+    │ Time of Residence ; March 2017 to Current
+    │ Proof of Residence ; https://files.catbox.moe/qjc6et.txt
+
+›  — Court Records ; https://files.catbox.moe/4hthcr.txt
+
+╔═══════════════════════╦════════════════════════════════════════════════════════════════╦═══════════════════════════════════════════════════════════════════════╦════════╦══════╗
+▓ ▓▓  Father's Emails   ▓▓ ║ ▓▓                                               [ Someguy ]   ║    [ Someguy ]                                                     ▓▓ ║  0x0║  ▓▓  ▓
+╚═══════════════════════╩════════════════════════════════════════════════════════════════╩═══════════════════════════════════════════════════════════════════════╩════════╩══════╝
+›  — Email Address:        pupdoggy666@gmail.com │ ─ Connected
+    │   │
+    │   │──│ DHgate (POOR PEOPLE CHINA ONLINE SHOPPING)
+    │   │──│ YouPorn (PORN)
+    │   │──│ XNXX (PORN)
+    │   │──│ Fancemtro (PORN)
+    │   │──│ JustForFans (PORN)
+    │   │──│ Erogames (PORN)
+    │   │──│ Discord (BRO USED HIS DADS EMAIL FOR A COM DISCORD)
+    │   │──│ HaveIBeenPwned (TOP TIER COM KID SITE)
+    │   │──│ RuTracker (RUSSIAN TORRENT SITE)
+    │   │──│ Vkontakte (RUSSIAN SOCIAL MEDIA)
+    │   │──│ Pimeyes (VERY SUBTLE, BROS "DOXING" OFF HIS DADS EMAIL)
+    │   │──│ Wix (BRO NEEDS A WEBSITE BUILDER)
+    │   │──│ Github (VERY SUBTLE SKID)
+    │   │──│ VRchat (WHY DOES BRO USE HIS DADS EMAIL FOR VRC COM)
+    │   │──│ Docker (SKID WITH THIS SOFTWARE?)
+    │   │──│ Unity (GAMING FOR SKIDS)
+    │   │──│ Elgato (CLASSIC DISCORD KID)
+    │   │──│ NVIDIA (COM/DISCORD KID)
+    │   │──│ Corsair (AVERAGE COM/DISCORD KID)
+    │   │──│ Ashampoo (MORE COM/DISCORD KID STUFF)
+    │   │──│ Asus (EVEN MORE COM/DISCORD KID STUFF)
+    │   │──│ Academia (RETARD TRYING TO LEARN)
+    │   │──│ Economic Times (INDIAN NEWS PAPER)
+    │   │──│ Grammarly (BRO CANT USE PROPER GRAMMAR HIMSELF)
+    │   │──│ Amazon
+    │   │──│ Instacart 
+    │   │──│ NextDoor
+    │   │──│ Activision 
+    │   │──│ FireFox
+    │   │──│ Adobe
+    │   │──│ MySpace
+    │   │──│ Spotify
+    │   │──│ WordPress
+    │   │──│ Pinterest
+    │   │──│ Coub
+    │   │──│ Dispus
+    │   │──│ Gaana
+    │   │──│ Wattpad
+    │   │──│ Picsart
+    │   │──│ Arcgames
+    │   │──│ Pokemon
+    │   │──│ BandsInTown
+    │   │──│ Care2
+    │   │──│ Call of Duty
+    │   │──│ Instagram
+    │   │──│ Disney
+    │   │──│ DisneyPlus
+    │   │──│ Bethesda
+    │   │──│ Forbes
+    │   │──│ ESPN
+    │   │──│ Facebook
+    │   │──│ War Thunder
+    │   │──│ Tagged
+    │   │──│ Roll20
+    │   │──│ Tumblr
+    │   │──│ GreenManGaming
+    │   │──│ Shazam
+    │   │──│ EA
+    │   │──│ DeviantArt
+    │   │──│ Twitter
+    │   │──│ DreamsTime
+    │   │──│ Apple
+    │   │──│ Linkedin
+    │   │──│ Starz
+    │   │──│ Venmo
+    │   │──│ AlixExpress / Nickname: SymbioteSmokes / ID: 447727684
+    │   │──│ Dropbox / ID: dbid:AACuBC1ZC2ay6B_pseGpnyzj6DvU4cc1x4Q
+    │   │──│ Skype / ID: live:pupdoggy666
+    │   │──│ Teams / CID: DA5E095F2086FBC1
+    │   │──│ Play Games / Username: MilesSmoke
+    │   │──│ TouchTunes / Username: pupdoggy666
+    │   │──│ Credit Karma / Recovery: 
+    │   │──│ PayPal / Recovery: +1 3••-•••-4857 / +1 (314) 456-4857
+    │   │──│ DoorDash / Recovery: +1 (***) ***-**56 / +1 (314) 696-9356
+    │   │──│ Chess / https://chess.com/member/hvffsfrfd
+    │   │──│ Flickr / https://www.flickr.com/photos/187354950@N02
+    │   │──│ Gravatar / https://gravatar.com/mrkwlch
+    │   │──│ Medium / https://medium.com/@pupdoggy666
+    │   │──│ Plex / https://app.plex.tv/desktop/#!/u/Milessmoke
+    │   │──│ Pandora / https://pandora.com/content/mobile/profile.vm?webname=Mark Welch
+    │   │──│ VSCO / https://vsco.co/milessmoke/gallery
+    │   │──│ Google Maps / https://www.google.com/maps/contrib/107864148534440574518/reviews
+    │   │──│ Yelp / https://www.yelp.com/user_details?userid=JQ6ViBwVj4N1uvnz3erB4w&utm_source=ishare
+    │   │──│ Quora / https://www.quora.com/profile/Mark-Welch-15
+    │   │──│                                                
+    │   │──│ Samsung ────── Samsung Info
+    │   │                    └──│ ID: b20211107171041wYVc0SSPob
+    │   │                       │ Recovery Number: +1 (314) *03-**50
+    │   │                       │ Recovery Email: meh******@gmail.com
+    │   │
+    │   │──│ Mircosoft ────── Mircosoft Info
+    │   │                      └──│ Recovery Number: +1 ********50
+    │   │                         │ Recovery Email: mi*****@gmail.com
+    │   │
+    │   │──│ Google ────── Google Info
+    │   │                   └──│ Name: Symbiote Smokes
+    │   │                      │ GID: 107864148534440574518
+    │   │                      │ PFP: https://files.catbox.moe/wlshfx.webp
+    │   │                      │ Recovery Number: ••••••••50
+    │   │                      │ Recovery Email: str•••••••••••••••@gmail.com
+    │   │
+    │   │──│ Intelx Breaches ────── https://files.catbox.moe/o0zcdv.json
+    │   │
+    │   │──│ OSINT Industries Report ────── https://files.catbox.moe/emiwjq.json
+
+›  — Email Address:        danielj@museumschool.org │ ─ Connected
+    │   │──│ Pinterest
+    │   │──│ Spotify
+    │   │──│ Grammarly
+    │   │──│ Coinlist
+    │   │──│ Maps
+    │   │──│ Google
+    │   │──│ Ebay / Username: danjones16 / Phone Hint: 4xx-xxx-xx38
+    │   │──│ NazApi
+    │   │──│ TelegramCombolists
+    │   │──│ TelegramStealerLogs
+    │   │──│ StealerLogsJan2025
+    │   │──│ HaveIBeenPwnd
+
+›  — Email Address:        jdub12388@yahoo.com      │ ─ Connected
+    │   │
+
+    │   │──│ Hibp
+    │   │──│ SpecialKSpamList
+    │   │──│ SCDailyPhoneSpamList
+    │   │──│ RiverCityMedia
+    │   │──│ OnlinerSpambot
+    │   │──│ VerificationsIO
+    │   │──│ LeadHunter
+    │   │──│ HaveIBeenPwnd
+
+›  — Email Address:        r_black_j78@yahoo.com │ ─ Connected
+    │   │
+    
+    │   │──│ ESPN
+    │   │──│ Hibp
+    │   │──│ Tagged
+    │   │──│ Instacart
+    │   │──│ Adobe
+    │   │──│ Spotify
+    │   │──│ Disney
+    │   │──│ Instagram
+    │   │──│ Apple
+    │   │──│ Pandora / https://pandora.com/content/mobile/profile.vm?webname=r_black_j78 / Username: r_black_j78
+    │   │──│ Facebook / Phone Hints: +*********84, +*********64
+    │   │──│ Quora
+
+›  — Email Address:        rhondagwelch@yahoo.com │ ─ Connected
+    │   │
+
+    │   │──│ Hibp
+    │   │──│ Disney
+    │   │──│ ESPN
+    │   │──│ Apple
+    │   │──│ Maps
+    │   │──│ Google / Gid: 114439508845950723540
+
+Emails without much intel: 
+›  — Email Address: pupdoggydogg@hotmail.com / IntelX report: https://files.catbox.moe/n43vv5.json
+›  — Email Address: pupdoggydogg2@hotmail.com / IntelX report: https://files.catbox.moe/pwksz1.json
+›  — Email Address: weaselboi@animeone.com
+›  — Email Address: brentgina2020@gmail.com
+›  — Email Address: mwelch6408@comcast.net
+›  — Email Address: jris_me10@yahoo.com
+
+╔═══════════════════════╦════════════════════════════════════════════════════════════════╦═══════════════════════════════════════════════════════════════════════╦════════╦══════╗
+▓ ▓▓  Mothers Info   ▓▓ ║ ▓▓                                               [ Someguy ]   ║    [ Someguy ]                                                     ▓▓ ║  0x07  ║  ▓▓  ▓
+╚═══════════════════════╩════════════════════════════════════════════════════════════════╩═══════════════════════════════════════════════════════════════════════╩════════╩══════╝
+
+›  Name:                       Erica Ladonn Gray
+›  Pseudonyms:                 Erika
+
+›  Age:			       32 Years Old
+›  DOB:			       10/26/1990 [Oct 10, 1992] 
+
+›  Height:                     160 cm (5' 3")
+›  Weight:                     47.6 kg (105 LBS)
+
+›  Medication:                 https://files.catbox.moe/6v0n1w.pdf
+
+›  Social History:             Meth Use Often
+   Tobacco Use Daily
+
+›  SSN:                        492-06-4015
+                                └──│ Date of Issuance: 1990
+                                   │ State of Issuance: MO
+
+›  Credit Report:              https://files.catbox.moe/cc2u7v.pdf
+                                └──│ Credit Score: 503
+                                   │ TLO: https://files.catbox.moe/4yfod4.pdf
+
+›  Driver Record:              https://files.catbox.moe/svjhma.pdf
+                                └──│ DLN: T139074010
+                                   │ Sequential Number: 242352570006
+                                   │ National Pointers: NDR Problem Driver Pointer
+                                   │ License Type: Class F - Operator License
+                                   │ Issue Date: 9/17/2024
+                                   │ Expire Date: 10/26/2030
+                                   │ Issue Type: Replica
+                                   │ Department Actions / Court Convictions: https://files.catbox.moe/svjhma.pdf
+
+›  Non-Driver Information:     https://files.catbox.moe/svjhma.pdf
+                                └──│ Sequential Number: 150030230004
+                                   │ License Type: Duplicate
+                                   │ Issue Date: 8/26/2024
+                                   │ Expire Date: 10/26/2025
+
+›  Permit Information:         https://files.catbox.moe/svjhma.pdf
+                                └──│ Sequential Number: 071390740033
+                                   │ License Type: Class F - Operator Permit
+                                   │ License Issue Type: Expired
+                                   │ Issue Date: 3/15/2007
+                                   │ Expire Date: 3/15/2008
+
+›  Number:                     +1 (618) 601-9719
+›  CNAM:                       Erica Ladonn Gray / https://files.catbox.moe/mant97.webp
+›  Carrier:                    MetroPCS
+›  OSINT Industries:           https://files.catbox.moe/kgcklk.json
+›  Carrier:                    MetroPCS
+
+›  Address:                    24010 W Veterans Memorial Pkwy #203, Warrenton, MO 63383
+›  County:                     Warren County
+›  ISP Provider:               Spectrum 
+›  Time of Residence:          October 3, 2024 to Current
+›  Proof of Residence:         https://files.catbox.moe/a9750r.txt
+
+›  Court Records:              https://files.catbox.moe/zpaekt.txt
+
+╔═══════════════════════╦════════════════════════════════════════════════════════════════╦═══════════════════════════════════════════════════════════════════════╦════════╦══════╗
+▓ ▓▓  Mother's Emails   ▓▓ ║ ▓▓                                               [ Someguy ]   ║    [ Someguy ]                                                     ▓▓ ║  0x0║  ▓▓  ▓
+╚═══════════════════════╩════════════════════════════════════════════════════════════════╩═══════════════════════════════════════════════════════════════════════╩════════╩══════╝
+
+›  —  Email Address:        egray5149@gmail.com      │ ─ Connected
+    │   │
+    │   │──│ Picsart
+    │   │──│ Shazam
+    │   │──│ Pinterest
+    │   │──│ Nextdoor
+    │   │──│ Adobe
+    │   │──│ Hibp
+    │   │──│ Instacart
+    │   │──│ Samsung
+    │   │──│ Skype / ID: live:.cid.e3182d6fb061f29a / Name: Erica Gray
+    │   │──│ Quora / ID: VXNlckAwOjE4MTYxMjY1NTQ= / Name: Erica Gray
+    │   │──│ Dropbox / ID: dbid:AACwlfcUeS3H4uWyP2MAEq-cKFDu9s4hv-A / Verified: True
+    │   │──│ Maps (US searches / leaving reviews)
+    │   │──│ Google
+    │   │──│ Yelp / ID: Wm6IgumV73IxzLAkIWhD3w / Name: Erica G.
+    │   │──│ Aliexpress / Username: Egray5149User
+    │   │──│ HaveIBeenPwned                                            
+
+    │   │──│ Google ────── Google Info
+    │   │                   └──│ Name: Erica Gray
+    │   │                      │ GID: 105936124232749558321
+    │   │                      │ PFP: https://lh3.googleusercontent.com/a-/ALV-UjXEmv7zbeCclZHMYBtxxPKkU8oJGatjskvBbpRel6NAIbthnw
+
+›  —  Email Address:        keepin_it_420style@yahoo.com │ ─ Connected
+    │   │
+    │   │──│ Myspace
+    │   │──│ Tagged
+    │   │──│ Instagram
+    │   │──│ PhotoBucket
+    │   │──│ Samsung
+    │   │──│ Hibp
+    │   │──│ Pandora / Username: keepin_it_420style / https://pandora.com/content/mobile/profile.vm?webname=keepin_it_420style
+    │   │──│ Bible / Name: Erica LaDonn Gray / Username: egray314
+    │   │──│ Goodreads / ID: 7652721 / https://www.goodreads.com/user/show/7652721-erica
+    │   │──│ Apple
+    │   │──│ HaveIBeenPwnd
+
+›  —  Email Address:        christyprenger@yahoo.com │ ─ Connected
+    │   │
+    │   │──│ Change
+    │   │──│ MySpace
+    │   │──│ Hibp
+    │   │──│ Instagram
+    │   │──│ Facebook
+    │   │──│ Pandora / Username: christyprenger9
+    │   │──│ Apple
+    │   │──│ RiverCityMedia
+    │   │──│ AntiPublic
+    │   │──│ OnlinerSpambot
+    │   │──│ Pemiblanc
+    │   │──│ Exactis
+    │   │──│ VerificationsIO
+    │   │──│ Cit0day
+    │   │──│ HaveIBeenPwnd!
+
+›  —  Email Address:        eladonngray@gmail.com    │ ─ Connected
+    │   │
+    │   │──│ Nextdoor
+    │   │──│ Spotify
+    │   │──│ Instacart
+    │   │──│ Pinterest
+    │   │──│ Cash App
+    │   │──│ Instagram
+    │   │──│ FitBit
+    │   │──│ Facebook / Phone Hint: +*********19
+    │   │──│ Wondershare
+    │   │──│ Apple / Phone Hint: (***) ***-**19
+    │   │──│ Pandora / https://pandora.com/content/mobile/profile.vm?webname=eladonngray
+    │   │──│ Fiton / Name: Erica Gray / 0 damn workouts done
+    │   │──│ Maps
+    │   │──│ Google
+    │   │──│ AlixExpress / Username: EricaGray_6075334726
+    │   │──│ Ebay / Username: ergr_1293 / Phone Hint: 6**-***-**19
+    │   │──│ Google ────── Google Info
+    │   │                   └──│ Name: Erica Gray
+    │   │                      │ GID: 102438341305080596524
+    │   │                      │ PFP: https://lh3.googleusercontent.com/a-/ALV-UjW7uVPTQ2nNvY7DYQo0u4qBlASto6LqF3X-ebrWDJ9P5h8x2g
+
+    Emails without much intel: 
+›  — Email Address: egra5149@gmail.com
+›  — Email Address: jnaumovitz@yahoo.com
+
+╔═══════════════════════╦════════════════════════════════════════════════════════════════╦═══════════════════════════════════════════════════════════════════════╦════════╦══════╗
+▓ ▓▓ Step-Dads Info  ▓▓ ║ ▓▓                                               [ Someguy ]   ║    [ Someguy ]                                                     ▓▓ ║  0x08  ║  ▓▓  ▓
+╚═══════════════════════╩════════════════════════════════════════════════════════════════╩═══════════════════════════════════════════════════════════════════════╩════════╩══════╝
+
+›  Name:                       Scott William Stout
+›  Pseudonyms:                 Scotty, Scott Ogle
+
+›  Age:			       31 Years Old
+›  DOB:			       06/20/1993 [June 20, 1993] 
+
+›  SSN:                        489-08-9427
+                                └──│ Date of Issuance: 1993
+                                   │ State of Issuance: MO
+
+›  TLO:                        https://files.catbox.moe/f0re4v.txt
+
+›  Number:                     +1 (314) 687-7764
+›  CNAM:                       Scott Stout
+›  Carrier:                    T-Mobile
+›  OSINT Industries:           https://files.catbox.moe/63lbp6.pdf
+
+›  Address:                    24010 W Veterans Memorial Pkwy #203, Warrenton, MO 63383
+›  County:                     Warren County
+›  ISP Provider:               Spectrum 
+›  Time of Residence:          October 3, 2024 to Current
+›  Proof of Residence:         https://files.catbox.moe/a9750r.txt
+
+›  Court Records:              https://files.catbox.moe/7duquy.txt
+
+╔═══════════════════════╦════════════════════════════════════════════════════════════════╦═══════════════════════════════════════════════════════════════════════╦════════╦══════╗
+▓ ▓▓   Family Info   ▓▓ ║ ▓▓                                               [ Someguy ]   ║    [ Someguy ]                                                     ▓▓ ║  0x09  ║  ▓▓  ▓
+╚═══════════════════════╩════════════════════════════════════════════════════════════════╩═══════════════════════════════════════════════════════════════════════╩════════╩══════╝
+
+›  Uncle Name:                 Anthony Vassallo
+›  Aunt Name:                  Paris Vassallo
+›  Number:                     +1 (314) 687-7764
+›  OSINT Industries:           https://files.catbox.moe/tyqoj1.json
+›  Note:                       Lawyer removed their public records, cant TLO personally, but if someone does lmk
+
+›  Scott's Brother:            Kenneth Neal Ogle Jr / Ken Ogle
+›  Age:                        41 / Oct, 1983
+›  Address:                    3412 Airway Ave, Saint Louis, MO 63114
+›  Number:                     +1 (314) 901-4228
+›  OSINT Industries:           https://files.catbox.moe/lbjwso.json
+›  TLO:                        https://files.catbox.moe/x60vbp.txt
+›  Facebook:                   https://www.facebook.com/ken.ogle.568
+
+›  Aunt Name:                  Katelynn Lane Gray
+›  Age:                        32 / 08/10/1992
+›  SSN:                        430-83-6032
+›  DLN:                        H082729508
+›  Address:                    502 E Madison St Apt E Broken Arrow, OK 74012
+›  Number:                     +1 (918) 630-0509
+›  OSINT Industries:           https://files.catbox.moe/e61g11.json
+›  TLO:                        https://files.catbox.moe/r2nvj2.pdf
+
+›  Grandpa Name:               Eric Lane Gray
+›  Age:                        58 / 10/08/1966
+›  SSN:                        487-88-6952
+›  Address:                    2625 Gates Blvd # 101, Fulton, MO 65251 (might be same addy as grandma, this was js on his public records + TLO)
+›  Number:                     +1 (573) 220-4858
+›  OSINT Industries:           https://files.catbox.moe/mibfou.json
+›  TLO:                        https://files.catbox.moe/xbw6vz.pdf
+
+›  Grandma Name:               Christy Ladonn Gray / Maiden Name: Christy Landonn Prenger
+›  Age:                        53 / Feb, 1971
+›  Address:                    162 Timberland Dr, Warrenton, MO 63383
+›  Number:                     +1 (636) 359-3249
+›  OSINT Industries:           https://files.catbox.moe/wcw5i9.json
+
+›  Erica's BFF:                Andrew Jackson Conley JR
+›  Age:                        38 / Aug, 1986
+›  Number:                     +1 (314) 366-5031
+›  OSINT Industries:           https://files.catbox.moe/6cgxo1.json
+›  Probable Address:           8626 Engler Ave, Saint Louis, MO 63114 (most likely his, public records are iffy)
+
+╔═══════════════════════╦════════════════════════════════════════════════════════════════╦═══════════════════════════════════════════════════════════════════════╦════════╦══════╗
+▓ ▓▓       End       ▓▓ ║ ▓▓                                               [ Someguy ]   ║    [ Someguy ]                                                     ▓▓ ║  0x07  ║  ▓▓  ▓
+╚═══════════════════════╩════════════════════════════════════════════════════════════════╩═══════════════════════════════════════════════════════════════════════╩════════╩══════╝
+
+If you have any questions, concerns or legal inquiries about the website and/or the content on it, please email us at ; cadenisabigfatpedofurryretardednigger@cadengray.info
+    </pre>
+</body>
+</html>
